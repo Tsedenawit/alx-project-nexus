@@ -46,13 +46,13 @@ const LoginPage: NextPageWithLayout = () => {
       <div className="flex items-center justify-center py-12 px-4">
         <div className="mx-auto grid w-[350px] gap-6">
           <div className="grid gap-2 text-center">
-            <h1 className="text-3xl font-bold">Welcome Back</h1>
+            <h1 className="text-3xl font-bold text-black">Welcome Back</h1>
             <p className="text-balance text-muted-foreground">Enter your email below to log in to your account</p>
           </div>
           
           
           {/* Login Form */}
-          <form className="grid gap-4" onSubmit={handleSubmit}>
+          <form className="grid gap-4 text-black" onSubmit={handleSubmit}>
             <div className="grid gap-2">
               <label htmlFor="email">Email</label>
               <input id="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} required className="w-full px-3 py-2 border rounded-md" />

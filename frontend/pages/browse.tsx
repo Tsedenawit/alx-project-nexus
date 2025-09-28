@@ -54,13 +54,13 @@ const BrowsePage: NextPage<BrowsePageProps> = ({ allBooks }) => {
 
       {/* Search Bar */}
       <div className="relative mt-8">
-        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-black" size={20} />
         <input 
           type="text"
           placeholder="Search for books by title, author, or ISBN"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full pl-10 pr-4 py-3 bg-gray-100 rounded-lg border-transparent focus:border-blue-500 focus:bg-white focus:ring-0"
+          className="w-full pl-10 pr-4 py-3 bg-gray-100 rounded-lg border-transparent focus:border-blue-500 focus:bg-white focus:ring-0  text-black"
         />
       </div>
 

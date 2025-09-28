@@ -39,7 +39,7 @@ const Testimonials: React.FC = () => {
   return (
     <section className="mb-8 pb-16 overflow-hidden">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">What Our Readers Are Saying</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 text-black">What Our Readers Are Saying</h2>
       </div>
 
       {/* The marquee container uses the 'group' class for the hover-pause effect */}

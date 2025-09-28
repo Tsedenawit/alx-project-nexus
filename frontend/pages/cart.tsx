@@ -59,11 +59,11 @@ const CartPage: React.FC = () => {
         {/* Left*/}
         <div className="lg:col-span-2">
           <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <div className="flex justify-between font-semibold text-gray-600 border-b pb-3 mb-4">
+            <div className="flex justify-between font-semibold text-black border-b pb-3 mb-4">
               <span>Product</span>
               <span>Price</span>
             </div>
-            <div className="space-y-6">
+            <div className="space-y-6 text-black">
               {cartItems.map((item) => (
                 <CartItemRow key={item.id} item={item} />
               ))}

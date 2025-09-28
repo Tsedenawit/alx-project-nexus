@@ -40,7 +40,7 @@ const TrustedBy: React.FC = () => {
     <section className="py-16 bg-white">
       <Testimonials/>
       <div className="max-w-screen-xl mx-auto px-8 md:px-8">
-        <h3 className="text-center text-sm text-gray-500 font-semibold tracking-wider">
+        <h3 className="text-center text-sm text-black font-semibold tracking-wider">
           JOINED BY STUDENTS FROM UNIVERSITIES ACROSS AFRICA
         </h3>
         <div className="mt-8 flex justify-center items-center flex-wrap gap-x-12 gap-y-8">

@@ -26,8 +26,8 @@ const Home: NextPage<HomeProps> = ({ featuredBooks }) => {
         className="w-full h-[480px] bg-no-repeat bg-center bg-cover rounded-2xl my-6"
       >
         <div className='flex flex-col items-center justify-center text-white text-center h-full gap-6'>
-          <p className='text-4xl md:text-6xl font-semibold'>Your Next Chapter Starts Here</p>
-          <p className='text-lg md:text-2xl max-w-3xl'> Buy, sell, or swap books with fellow students and readers. Find your next great read or give your old books a new home.</p>
+          <p className='text-4xl md:text-6xl font-semibold text-black'>Your Next Chapter Starts Here</p>
+          <p className='text-lg md:text-2xl max-w-3xl text-black'> Buy, sell, or swap books with fellow students and readers. Find your next great read or give your old books a new home.</p>
           <Link href='/browse' className='cursor-pointer'> <Button label="Browse Books" variant="primary" /> </Link>
          
         </div>

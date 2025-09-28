@@ -54,9 +54,9 @@ const Header: React.FC = () => {
 
           {/* --- DESKTOP --- */}
           <div className="hidden md:flex items-center gap-6">
-            <Link href="/browse"><span className="text-sm text-gray-800 hover:text-[#6b35e8]">Browse Books</span></Link>
-            <Link href="#"><span className="text-sm text-gray-800 hover:text-[#6b35e8]">Community</span></Link>
-            <Link href="#"><span className="text-sm text-gray-800 hover:text-[#6b35e8]">About</span></Link>
+            <Link href="/browse"><span className="text-sm text-white hover:text-[#6b35e8]">Browse Books</span></Link>
+            <Link href="#"><span className="text-sm text-white hover:text-[#6b35e8]">Community</span></Link>
+            <Link href="#"><span className="text-sm text-white hover:text-[#6b35e8]">About</span></Link>
           </div>
 
           <div className="flex items-center gap-4">
